@@ -7,7 +7,7 @@
 		if(resolvedUser) {
 			vm.user = resolvedUser;
 		} else {
-			return $state.go('404');
+			return $state.go('404', {});
 		}
 
 		Pokemon.findByName(vm.user.pokemon.name)

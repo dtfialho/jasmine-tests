@@ -10,7 +10,7 @@
 		.state('404', {
 			url: '/404',
 			templateUrl: 'components/missingno/missingno.html',
-			controller: 'MissongnoController as mn'
+			controller: 'MissingnoController as mn'
 		});
 	});
 })();
